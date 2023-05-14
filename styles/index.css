@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Oribitron';
+    src: url('fonts/Orbitron-VariableFont_wght') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header {
+    margin: 0;
+    background-color: #383838;
+    align-items: center;
+    box-shadow: 0 0 10px #181616;
+}
+
+.capa {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 50px;
+}
+
+.img-titulo {
+    margin-top: 40px;
+}
+
+.img-apresentacao {
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    color: #383838;
+}
+
+.div-ling {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 4px solid #4169E1;
+    padding: 25px;
+    border-radius: 10px;
+    width: 550px;
+    height: 365px;
+}
+
+.div-ling:hover {
+    background-color: #d6d4d4;
+    cursor: pointer;
+}
+
+.div-ling .img-title {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.div-ling .icon-list {
+    width: 40px;
+    margin-right: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-ling {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.link-certificate {
+    text-decoration: none;
+    color: #383838;
+}
+
+.link-certificate:hover {
+    color: #4169E1;
+}
+
+.ul-ling {
+    margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px;
+    background-color: #383838;
+    align-items: center;
+    box-shadow: 0 0 10px #181616;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.icons-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-footer img {
+    width: 70px;
+}
+

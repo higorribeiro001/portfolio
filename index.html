@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Portfólio | Higor Araújo</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/Group 1.png" alt="capa" class="capa" id="capa">
+    </header>
+    <main>
+        <img src="images/desenvolvedor.png" alt="desenvolvedor" class="img-titulo">
+        <img src="images/apresentacao.jpeg" alt="apresentacao" class="img-apresentacao">
+        <section>
+            <div class="div-ling">
+                <img src="images/perfil.png" alt="perfil" class="img-title">
+                <p>Tenho 21 anos, atualmente estou cursando Sistemas de Informação na Universidade Federal Rural da
+                    Amazônia (UFRA), faço estágio na empresa PhiCoding de Alagoas (online) e estou envolvido em projeto
+                    de extensão. Sou um desenvolvedor junior em busca de exeperiência, além de ajudar a sociedade com
+                    muito empenho em projetos.</p>
+                <h4>
+                    Cursos:
+                </h4>
+                <ul>
+                    <li class="list-cursos">
+                        <a href="certificates/Curso Python.pdf" target="_blank" class="link-certificate">-
+                            Desenvolvimento Orientado a Objetos
+                            Utilizando a Linguagem
+                            Python;</a>
+                    </li>
+                    <li class="list-cursos">
+                        - Python do Básico ao Avançado (Em Desenvolvimento);
+                    </li>
+                    <li class="list-cursos">
+                        - Desenvolvimento Web Avançado com PHP, Laravel e Vue.JS <br>(Em Desenvolvimento);
+                    </li>
+                    <li class="list-cursos">
+                        - Curso de Django Web Framework e Django Rest Framework <br>(Em Desenvolvimento);
+                    </li>
+                    <li class="list-cursos">
+                        - Devops - Mão na massa (Em Desenvolvimento);
+                    </li>
+                </ul>
+            </div>
+            <div class="div-ling">
+                <img src="images/liguagens.png" alt="liguagens" class="img-title">
+                <ul class="ul-ling">
+                    <li class="list-ling">
+                        <img src="images/python.png" alt="python" class="icon-list">
+                        Python (Nível Intermediário)
+                    </li>
+                    <li class="list-ling">
+                        <img src="images/php.png" alt="python" class="icon-list">
+                        PHP (Nível Básico)
+                    </li>
+                    <li class="list-ling">
+                        <img src="images/js.png" alt="python" class="icon-list">
+                        Javascript (Nível Básico)
+                    </li class="list-ling">
+                    <li class="list-ling">
+                        <img src="images/flutter.png" alt="python" class="icon-list">
+                        Dart/Flutter (Nível Básico)
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© Todos os direitos reservados</p>
+        <div class="icons-footer">
+            <a href="https://api.whatsapp.com/send?phone=559187441050" target="_blank"><img src="images/zap.png"
+                    alt="whats"></a>
+            <a href="https://www.instagram.com/eu_higorribeiro/" target="_blank"><img src="images/insta.png"
+                    alt="github"></a>
+            <a href="https://github.com/higorribeiro001" target="_blank"><img src="images/github.png"
+                    alt="instagram"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    function trocarSrc() {
+        if (window.innerWidth < 700) {
+            document.getElementById('capa').src = 'images/Group 2.png';
+        } else {
+            document.getElementById('capa').src = 'images/Group 1.png';
+        }
+    }
+
+    window.addEventListener('resize', trocarSrc);
+    window.addEventListener('DOMContentLoaded', trocarSrc);
+</script>
+
+</html>
